@@ -104,6 +104,7 @@ function gsapAnimation() {
         </div>
 
         <div className="py-20">
+          
           {/* first */}
            <div className="link origin-top relative border-y-[1px] border-white hover:border-black">
             <h1 className="font-[font1] lg:text-[8vw] text-6xl  text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
