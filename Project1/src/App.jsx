@@ -9,7 +9,7 @@ import FullNav from "./components/navigation/FullNav";
 function App() {
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar/>
       <FullNav/>
       <Routes>

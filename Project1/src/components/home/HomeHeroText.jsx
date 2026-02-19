@@ -3,10 +3,10 @@ import Video from './Video'
 
 const HomeHeroText = () => {
   return (
-    <div className='font-[font1] pt-5 text-center text-white'>
-      <div className='text-[9vw] justify-center flex items-center uppercase leading-[8vw]'>The spark for</div>
+    <div className='font-[font1] mt-40 lg:mt-0 pt-5 text-center text-white'>
+      <div className='lg:text-[9vw] text-[12vw] justify-center flex items-center uppercase lg:leading-[8vw] leading-[10vw]'>The spark for</div>
 
-      <div className='text-[9vw] justify-center flex  items-start uppercase leading-[8vw]'>
+      <div className='lg:text-[9vw] text-[12vw] justify-center flex  items-start uppercase lg:leading-[8vw] leading-[10vw]'>
             all 
             <div className='h-[7vw] w-[16vw] rounded-full overflow-hidden '>
                 <Video/>
@@ -14,7 +14,7 @@ const HomeHeroText = () => {
                 things
         </div>
 
-      <div className='text-[9vw] justify-center flex items-center uppercase leading-[8vw]'>creative</div> 
+      <div className='lg:text-[9vw] text-[12vw] justify-center flex items-center uppercase lg:leading-[8vw] leading-[10vw]'>creative</div> 
     </div>
   )
 }

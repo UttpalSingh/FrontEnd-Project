@@ -4,12 +4,12 @@ import { NavbarContext } from "../../context/NavContext";
 const Navbar = () => {
 
     const navGreenRef = useRef(null)
-    const[navOpen,setnavOpen] = useContext(NavbarContext)
+    const[navOpen,setNavOpen] = useContext(NavbarContext)
 
   return (
     <div className="z-4 flex fixed top-0 w-full items-start justify-between">
-      <div className="p-3">
-        <div className=" w-33">
+      <div className="lg:p-3 p-2">
+        <div className="lg:w-33 w-24">
           <svg
             className="w-full"
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
 
       <div onClick={function(){
-        setnavOpen(true)
+        setNavOpen(true)
       }} onMouseEnter={() => {
         navGreenRef.current.style.height = '100%'
       }}
@@ -33,11 +33,11 @@ const Navbar = () => {
             navGreenRef.current.style.height = '0%'
         }}
 
-      className="h-14 bg-black relative w-[16.5vw]">
+      className="lg:h-14 h-10 bg-black relative lg:w-[16.5vw] w-44">
         <div ref={navGreenRef} className="bg-[#D3FD50] transition-all absolute top-0 h-0 w-full"></div>
-        <div className="relative h-full px-9 flex flex-col justify-center items-end gap-2">
-            <div className="w-14 h-[1px] bg-white"></div>
-            <div className="w-9 h-[1px] bg-white"></div>
+        <div className="relative h-full lg:px-9 px-8 flex flex-col justify-center items-end lg:gap-2 gap-1">
+            <div className="lg:w-14 w-12 h-0.5 bg-white"></div>
+            <div className="lg:w-9 w-6 h-0.5 bg-white"></div>
         </div>
       </div>
     </div>

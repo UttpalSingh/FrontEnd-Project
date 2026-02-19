@@ -5,7 +5,7 @@
     src: url(../public/fonts/Lausanne-300.woff2);
 }
 @font-face {
-    font-family: font1;
+    font-family: font2;
     src: url(../public/fonts/Lausanne-500.woff2);
 }
 .moveX{
@@ -16,7 +16,7 @@
 }
 .moveLink{
     opacity: 0;
-    transition: all ease 0.5s;
+    transition: all ease 0.3ss;
 }
 .link:hover .moveLink{
     opacity: 1;
