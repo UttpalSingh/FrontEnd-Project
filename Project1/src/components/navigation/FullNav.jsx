@@ -280,6 +280,15 @@ const FullNav = () => {
             </div>
           </div>
         </div>
+
+        <div className="link">
+          <div className="flex flex-row items-center justify-center gap-2 font-[font1] lg:text-[12px] text-[8px]  uppercase lg:mt-4">
+            <div className="hover:text-[#D3FD50] cursor-pointer">privacy policy</div>
+            <div className="hover:text-[#D3FD50] cursor-pointer">privacy notice</div>
+            <div className="hover:text-[#D3FD50] cursor-pointer">ethics report</div>
+            <div className="hover:text-[#D3FD50] cursor-pointer">consent choices</div>
+          </div>
+        </div>
       </div>
     </div>
   );
