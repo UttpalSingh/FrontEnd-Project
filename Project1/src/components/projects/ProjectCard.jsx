@@ -4,7 +4,7 @@ const ProjectCard = (props) => {
   return (
    <> 
       {/* first */}
-      <div className="w-1/2 group transition-all relative rounded-none hover:rounded-[50px] overflow-hidden h-full">
+      <div className="lg:w-1/2 group transition-all relative rounded-none hover:rounded-[50px] overflow-hidden h-full">
         <img
           className=" h-full w-full object-cover"
           src={props.image1}
@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
         </div>
       </div>
       {/* second */}
-      <div className="w-1/2 group transition-all relative rounded-none hover:rounded-[50px] overflow-hidden h-full">
+      <div className="lg:w-1/2 group transition-all relative rounded-none hover:rounded-[50px] overflow-hidden h-full">
         <img
           className=" h-full w-full object-cover"
           src={props.image2}

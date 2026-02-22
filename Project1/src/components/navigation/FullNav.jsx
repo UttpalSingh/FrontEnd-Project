@@ -11,7 +11,7 @@ const FullNav = () => {
 
   
     
-function gsapAnimation() {
+    function gsapAnimation() {
         const tl = gsap.timeline()
         tl.to('.fullscreennav', {
             display: 'block'
@@ -57,7 +57,6 @@ function gsapAnimation() {
         })
     }
 
-
     useGSAP(function () {
         if (navOpen) {
             gsapAnimation()
@@ -74,7 +73,7 @@ function gsapAnimation() {
         <div className="h-full w-full flex">
           <div className="stairing h-full w-1/5 bg-black"></div>
           <div className="stairing h-full w-1/5 bg-black"></div>
-          <div className="staiing h-full w-1/5 bg-black"></div>
+          <div className="stairing h-full w-1/5 bg-black"></div>
           <div className="stairing h-full w-1/5 bg-black"></div>
           <div className="stairing h-full w-1/5 bg-black"></div>
         </div>
@@ -104,9 +103,8 @@ function gsapAnimation() {
         </div>
 
         <div className="py-20">
-          
           {/* first */}
-           <div className="link origin-top relative border-y-[1px] border-white hover:border-black">
+           <div className="link origin-top relative border-t-[1px] border-white ">
             <h1 className="font-[font1] lg:text-[8vw] text-6xl  text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
               Work
             </h1>
@@ -150,7 +148,7 @@ function gsapAnimation() {
             </div>
           </div>
           {/* second */}
-           <div className="link origin-top relative border-b-[1px] border-white hover:border-black">
+           <div className="link origin-top relative border-t-[1px] border-white h">
             <h1 className="font-[font1] lg:text-[8vw] text-6xl  text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
               Agency
             </h1>
@@ -194,7 +192,7 @@ function gsapAnimation() {
             </div>
           </div>
           {/* third */}
-           <div className="link origin-top relative border-b-[1px] border-white hover:border-black">
+           <div className="link origin-top relative border-t-[1px] border-white ">
             <h1 className="font-[font1] lg:text-[8vw] text-6xl  text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
               Contact
             </h1>
@@ -238,7 +236,7 @@ function gsapAnimation() {
             </div>
           </div>
           {/* fourth */}
-           <div className="link origin-top relative border-b-[1px] border-white hover:border-black">
+           <div className="link origin-top relative border-y-[1px] border-white ">
             <h1 className="font-[font1] lg:text-[8vw] text-6xl  text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
               blog
             </h1>

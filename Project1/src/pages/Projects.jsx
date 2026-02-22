@@ -1,10 +1,7 @@
-import React from 'react'
 import ProjectCard from '../components/projects/ProjectCard'
-
 import {useGSAP} from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
-
 
 const Projects = () => {
 
@@ -73,14 +70,14 @@ const Projects = () => {
 
 
   return (
-    <div className='p-3'>
+    <div className='lg:p-4 p-2 mb-[100vh]'>
       <div className=' pt-[41vh] '>
-        <h2 className='font-[font1] text-[12vw] uppercase'>Work</h2>
+        <h2 className='font-[font1] lg:text-[12vw] text-7xl uppercase'>Work</h2>
       </div>
 
-      <div className='-mt-20 par'>
+      <div className='-lg:mt-20 par'>
        {projects.map(function(element,idx){
-        return <div key={idx} className="hero w-full mb-4 h-[650px] flex gap-4">
+        return <div key={idx} className="hero w-full mb-4 lg:h-[600px] flex lg:flex-row flex-col lg:gap-4 gap-2">
          <ProjectCard image1={element.image1} image2={element.image2}/>
          </div>
        })}
