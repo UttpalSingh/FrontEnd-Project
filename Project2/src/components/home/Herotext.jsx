@@ -28,11 +28,11 @@ const Herotext = () => {
   return (
     <div
       ref={myRef}
-      className="relative text-9xl flex mt-9 p-5 bottom-5 leading-[7vw]"
+      className="relative flex mt-9 p-5 bottom-5 leading-[7vw]"
     >
-      <div className="heroText">
-        Hi,I'm Uttpal!<div className="text-[#22223b] txt">Web Developer</div>&
-        <div className="text-[#22223b] txt">Graphic Designer</div>
+      <div className="heroText text-7xl">
+        Hi,I'm Uttpal!<div className="text-[#22223b] txt text-9xl">Web Developer</div>&
+        <div className="text-[#22223b] txt text-9xl">Graphic Designer</div>
       </div>
     </div>
   );
