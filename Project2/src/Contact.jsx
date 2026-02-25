@@ -1,9 +1,10 @@
+import { Info } from 'lucide-react'
 import React from 'react'
 
 const Contact = () => {
   return (
     <div>
-      Contact
+      <Info/>
     </div>
   )
 }
