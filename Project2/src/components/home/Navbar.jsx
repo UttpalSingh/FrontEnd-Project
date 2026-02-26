@@ -8,10 +8,12 @@ const Navbar = () => {
   return (
     <div>
       <div className="text-5xl flex flex-row justify-between p-5">
-        <div className="uppercase flex items-center">
-          <Hexagon size={60} />
-          codefolio
-        </div>
+        <Link to="/">
+          <div className="uppercase flex items-center">
+            <Hexagon size={60} />
+            codefolio
+          </div>
+        </Link>
         <div className="flex gap-7">
           <Link to="/about" className="flex items-center gap-2">
             <BadgeAlert size={60} />

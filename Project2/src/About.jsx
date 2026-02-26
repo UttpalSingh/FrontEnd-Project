@@ -14,7 +14,7 @@ const About = () => {
   })
 
   return (
-    <div ref={container} className='relative '>
+    <div ref={container}>
 
       <Details/>
     </div>

@@ -8,25 +8,27 @@ import Navbar from "../home/Navbar";
 import { Link } from "react-router-dom";
 import { Hexagon } from "lucide-react";
 import { UserRound } from "lucide-react";
-import { House } from 'lucide-react';
+import { House } from "lucide-react";
 
 const Details = () => {
   return (
-    <div className="parent min-h-screen w-full  text-[#f2e8cf] ">
+    <div className="parent min-h-screen w-full  text-[#f2e8cf]">
       <div>
         <div className="text-5xl flex flex-row justify-between p-5">
-          <div className="uppercase flex items-center">
-            <Hexagon size={60} color="#590d22"/>
-            codefolio
-          </div>
+          <Link to="/">
+            <div className="uppercase flex items-center">
+              <Hexagon size={60} />
+              codefolio
+            </div>
+          </Link>
           <div className="flex gap-7">
             <Link to="/" className="flex items-center gap-2">
-              <House size={60} color="#800f2f"/>
+              <House size={60} color="#800f2f" />
               <span>Home</span>
             </Link>
 
             <Link to="/contact" className="flex items-center gap-2">
-              <UserRound size={60} color="#800f2f"/>
+              <UserRound size={60} color="#800f2f" />
               <span>Contact</span>
             </Link>
           </div>
@@ -66,7 +68,7 @@ const Details = () => {
 
         <div className="px-60 text-6xl m-5 text-[#ffe5d9] items-start">
           <div className="flex items-center p-3">
-            <Github size={60} color="#450920"/>
+            <Github size={60} color="#450920" />
             <span>GitHub Finder</span>
           </div>
           <div className="w-[100vh] h-[50vh] bg-[#450920] rounded-xl flex left-6 px-5 py-10">
@@ -78,19 +80,20 @@ const Details = () => {
               />
             </div>
             <div className="m-5 text-2xl leading-[5vh] text-white">
-              Hi, I'm Uttpal, a B.Tech student and passionate Web Developer. I
-              enjoy creating interactive and responsive web applications while
-              continuously improving my programming skills. My core skills
-              include C++, JavaScript, React.js, C, and Python. Currently
-              working on real-world projects to strengthen my development
-              journey.
+              GitHub Finder is a web application that allows users to search for
+              any GitHub profile and instantly view detailed information
+              including repositories, account creation date, followers, and
+              attached social links. The project fetches real-time data from the
+              GitHub API and presents it in a clean, user-friendly interface. It
+              focuses on responsive design, smooth UI interactions, and
+              structured data rendering.
             </div>
           </div>
         </div>
 
         <div className="px-60 text-6xl  text-[#ffe5d9] items-start">
           <div className="flex items-center p-3">
-            <LaptopMinimal size={60} color="#450920"/>
+            <LaptopMinimal size={60} color="#450920" />
             <span>K72 Website</span>
           </div>
           <div className="w-full max-w-6xl h-[50vh] bg-[#720026] rounded-xl flex left-6 px-5 py-10">
@@ -106,12 +109,12 @@ const Details = () => {
               />
             </div>
             <div className="m-5 text-2xl leading-[5vh] text-white">
-              Hi, I'm Uttpal, a B.Tech student and passionate Web Developer. I
-              enjoy creating interactive and responsive web applications while
-              continuously improving my programming skills. My core skills
-              include C++, JavaScript, React.js, C, and Python. Currently
-              working on real-world projects to strengthen my development
-              journey.
+              K72.ca is the official website for K72, a Montreal-based creative
+              agency founded in 2015 that specializes in brand building,
+              marketing, and strategic communications. The agency is known for
+              an avant-garde approach to branding and a highly interactive,
+              award-winning website portfolio featuring unique scroll effects,
+              animations, and bold, minimalist design.
             </div>
           </div>
         </div>

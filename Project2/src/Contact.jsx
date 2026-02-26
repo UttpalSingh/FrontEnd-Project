@@ -1,12 +1,14 @@
-import { Info } from 'lucide-react'
-import React from 'react'
+import Contact_page from "./components/contact/Contact_page";
 
 const Contact = () => {
+
+  
+
   return (
     <div>
-      <Info/>
+      <Contact_page />
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
