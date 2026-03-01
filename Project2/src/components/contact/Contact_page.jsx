@@ -12,10 +12,11 @@ const Contact_page = () => {
 
   useGSAP(() => {
     gsap.from(ContactRef.current, {
-    y: -400,
+    y: 300,
     opacity: 0,
     duration: 2,
-    stagger: 0.2,
+    delay:1,
+    stagger: 1,
     ease: "expoScale(0.5,7,none)"
     });
   });
