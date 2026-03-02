@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { Hexagon } from "lucide-react";
-import { UserRound } from "lucide-react";
 import { House } from "lucide-react";
 import { BadgeAlert } from "lucide-react";
 import { useGSAP } from "@gsap/react";
@@ -15,7 +14,7 @@ const Contact_page = () => {
     y: 300,
     opacity: 0,
     duration: 2,
-    delay:1,
+    scale:0,
     stagger: 1,
     ease: "expoScale(0.5,7,none)"
     });
@@ -53,7 +52,7 @@ const Contact_page = () => {
 
       <div
         ref={ContactRef}
-        className="relative z-10 flex flex-row  py-30 gap-20"
+        className="relative z-10 flex flex-row  py-30 gap-20 ml-20"
       >
         <div className="h-[27vh] w-[50vh] flex  text-5xl m-3 text-black p-3">
           <Link to="https://www.linkedin.com/in/uttpal-singh-750629230/">

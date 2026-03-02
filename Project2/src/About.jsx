@@ -10,6 +10,7 @@ const About = () => {
     duration:2.5,
     ease: "bounce.out",
     y: -450,
+    
     })
   })
 
