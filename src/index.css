@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body{
+  background-color: black;
+  color: white;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(../public/fonts/DancingScript-Bold.ttf);
+}
+.input-style{
+  @apply p-3 rounded-lg bg-[#faedcd] text-black outline-none 
+  focus:ring-2 focus:ring-[#d4a373] 
+  transition hover:shadow-md;
+}
